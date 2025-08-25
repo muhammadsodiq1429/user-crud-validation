@@ -49,7 +49,7 @@ const UserSubmit = () => {
     .required();
   const {
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { errors },
     register,
     reset,
   } = useForm<IFormData>({

@@ -10,7 +10,7 @@ const initialState: IInitialState = {
 export const userUpdateSlice = createSlice({
   name: "userUpdateSlice",
   reducers: {
-    setUpdatingUser: (state: any, actions: PayloadAction) => {
+    setUpdatingUser: (state: any, actions: PayloadAction<any>) => {
       state.value = actions.payload;
     },
   },

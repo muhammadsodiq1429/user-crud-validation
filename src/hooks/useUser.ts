@@ -1,6 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { api } from "../api/api";
-import type { IFormData } from "../components/user/user-submit";
 
 export const userKey = "user-key";
 
